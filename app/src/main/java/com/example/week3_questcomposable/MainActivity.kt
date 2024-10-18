@@ -57,8 +57,11 @@ Column(
         )
 
     Text("Nama")
-    Text("Ersa Aditya")
-    Text("20220140160")
+    Text("Ersa Aditya",
+        fontSize = 30.sp)
+    Text("20220140160",
+        fontSize = 25.sp,
+        fontWeight = FontWeight.Bold)
     Image(painter = painterResource(id = R.drawable.potrait)
     , contentDescription = "")
 
