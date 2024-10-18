@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicColumn(){
+fun BasicColumn(modifier: Modifier = Modifier){
 Column() {
     Text("Login")
     Text("Ini Adalah Halaman Login")
