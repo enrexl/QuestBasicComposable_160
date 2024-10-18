@@ -50,6 +50,8 @@ Column(
     Text("Nama")
     Text("Ersa Aditya")
     Text("20220140160")
+    Image(painter = painterResource(id = R.drawable.potrait)
+    , contentDescription = "")
 
 }
 }
