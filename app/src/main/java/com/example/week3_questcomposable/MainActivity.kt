@@ -30,6 +30,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
 @Composable
 fun BasicColumn(){
 Column() {
@@ -50,6 +51,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Week3QuestComposableTheme {
-        Greeting("Android")
+        BasicColumn()
     }
 }
