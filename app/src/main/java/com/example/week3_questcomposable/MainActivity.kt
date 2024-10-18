@@ -47,6 +47,8 @@ Column(
     Text("Ini Adalah Halaman Login")
     Image(painter = painterResource(id = R.drawable.logo)
     , contentDescription = "")
+    Text("Nama")
+
 }
 }
 
