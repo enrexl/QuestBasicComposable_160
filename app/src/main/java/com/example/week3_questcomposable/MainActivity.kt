@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -49,8 +50,12 @@ Column(
         fontWeight = FontWeight.Bold)
 
     Text("Ini Adalah Halaman Login")
-    Image(painter = painterResource(id = R.drawable.logo)
-    , contentDescription = "")
+
+    Image(painter = painterResource(id = R.drawable.logo),
+    contentDescription = "",
+        modifier = Modifier.size(300.dp)
+        )
+
     Text("Nama")
     Text("Ersa Aditya")
     Text("20220140160")
