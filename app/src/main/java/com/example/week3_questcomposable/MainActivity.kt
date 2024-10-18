@@ -48,6 +48,8 @@ Column(
     Image(painter = painterResource(id = R.drawable.logo)
     , contentDescription = "")
     Text("Nama")
+    Text("Ersa Aditya")
+    Text("20220140160")
 
 }
 }
