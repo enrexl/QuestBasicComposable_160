@@ -34,6 +34,7 @@ class MainActivity : ComponentActivity() {
 fun BasicColumn(){
 Column() {
     Text("Login")
+    Text("Ini Adalah Halaman Login")
 }
 }
 
