@@ -15,6 +15,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -43,7 +44,10 @@ Column(
     modifier = Modifier.fillMaxSize()
         .padding(top = 30.dp)
 ) {
-    Text("Login")
+    Text("Login",
+        fontSize = 50.sp,
+        fontWeight = FontWeight.Bold)
+
     Text("Ini Adalah Halaman Login")
     Image(painter = painterResource(id = R.drawable.logo)
     , contentDescription = "")
