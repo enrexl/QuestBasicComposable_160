@@ -14,6 +14,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.week3_questcomposable.ui.theme.Week3QuestComposableTheme
 
 class MainActivity : ComponentActivity() {
@@ -36,7 +38,8 @@ fun BasicColumn(modifier: Modifier = Modifier){
 Column(
     horizontalAlignment = Alignment.CenterHorizontally,
     verticalArrangement = Arrangement.Top,
-
+    modifier = Modifier.fillMaxSize()
+        .padding(top = 30.dp)
 ) {
     Text("Login")
     Text("Ini Adalah Halaman Login")
