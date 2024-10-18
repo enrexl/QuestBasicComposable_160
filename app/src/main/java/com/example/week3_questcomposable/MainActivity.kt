@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -56,12 +57,17 @@ Column(
         modifier = Modifier.size(300.dp)
         )
 
+    Spacer(modifier = Modifier.padding(10.dp))
+
     Text("Nama")
     Text("Ersa Aditya",
         fontSize = 30.sp)
     Text("20220140160",
         fontSize = 25.sp,
         fontWeight = FontWeight.Bold)
+
+Spacer(modifier = Modifier.padding(10.dp))
+
     Image(painter = painterResource(id = R.drawable.potrait)
     , contentDescription = "")
 
